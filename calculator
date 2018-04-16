@@ -1,0 +1,46 @@
+
+
+  class Calculator
+    def add (a, b)
+     puts a+b
+    end
+
+    def sub (a, b)
+      puts a-b
+    end
+
+    def mul(a, b)
+      puts a*b
+    end
+
+    def div(a, b)
+      if a.is_a? Numeric and  b.is_a? Numeric and b!=0
+        puts a/b
+        else
+          puts "The number cannot be divided"
+        end
+
+
+    end
+
+    def power(a,p)
+      puts a**p
+    end
+
+    def sqrt(a)
+      puts Math.sqrt(a)
+    end
+
+    def sin(x)
+      puts Math.sin(x)
+    end
+
+    def cos(x)
+      puts Math.cos(x)
+    end
+
+    def tan(x)
+      puts Math.tan(x)
+    end
+  end
+
